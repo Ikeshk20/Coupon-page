@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>كوبون خصم علي إكسبريس</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      font-family: 'Tahoma', sans-serif;
+    }
+    @keyframes flash {
+      0%,100% { opacity:1; }
+      50% { opacity:0; }
+    }
+    .coupon-link {
+      text-decoration: none;
+      color: inherit;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div id="couponBox" style="
+    background:#fff8e1;
+    padding:10px;
+    border-radius:10px;
+    border:3px solid #ffd700;
+    direction:rtl;
+    text-align:center;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+  ">
+    <center>
+      <div style="
+        background-color:#fff8e1;
+        color:green;
+        display:inline-block;
+        padding:5px 12px;
+        border-radius:12px;
+        font-size:14px;
+        margin-bottom:20px;
+        font-weight:bold;
+        animation:flash 1s infinite;
+        -webkit-animation:flash 1s infinite;
+        text-align:center;">
+        خصم يصل إلى 60 %🔥
+      </div>
+    </center>
+
+    <a href="https://rzekl.com/g/1e8d11449462d63d7b8416525dc3e8/" target="_blank" class="coupon-link">
+      <img src="https://cdn.admitad-connect.com/public/bs/2025/01/14/AliExpress_logo_Jan_2025_216x54.8227.png"
+           style="max-width:200px; display:block; margin:auto; border-radius:8px;" alt="AliExpress Offer">
+      
+      <button style="
+        background:#ff4500;
+        color:#fff;
+        border:none;
+        border-radius:6px;
+        padding:10px 15px;
+        cursor:pointer;
+        margin-top:10px;">
+        تسوق الآن
+      </button>
+    </a>
+
+    <p id="expiryDate" style="text-align:center;">🔚 ينتهي بتاريخ: 2025-10-07</p>
+  </div>
+
+  <script>
+    const expiryDate = new Date("2025-10-07T23:59:59");
+    const now = new Date();
+    if (now > expiryDate) {
+      document.getElementById("couponBox").style.display = "none";
+    }
+  </script>
+</body>
+</html>
